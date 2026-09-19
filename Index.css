@@ -35,7 +35,7 @@
 
 .swords1 {
   position: absolute;
-  max-width: 30%;
+  width: 30%;
   height: auto;
   top: 28%;
   left: 3%;
@@ -43,7 +43,7 @@
 
 .swords2 {
   position: absolute;
-  max-width: 30%;
+  width: 30%;
   height: auto;
   top: 28%;
   right: 3%;
