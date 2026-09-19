@@ -1,1 +1,279 @@
+/* Position des Header */
+
+.header {
+  border-bottom: 3px solid red;
+  position: relative;
+  display: flex;
+  align-items: center;     
+  padding: 10px 20px;
+  margin-bottom: 10px; 
+}
+
+.logo {
+  	width: 200px; 
+	height: 100px;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.info {
+	position: absolute;
+  	left: 50%;
+	top: 75%;
+ 	transform: translateX(-50%);
+  	margin: 0;
+	font-size: 22px;
+	font-family: "Serif, sans-serif";
+	Color: black;
+}
+
+/* Position des Bildes */
+
+.avi {
+	position: absolute;
+  	left: 850px;
+	top: 385px;
+}
+
+.cl1 {
+position: absolute;
+left: 60px;
+bottom: 300px;
+}
+
+.cl2 {
+position: absolute;
+left: 65px;
+bottom: 100px;
+}
+
+/* Design */
+
+.main {
+    max-width: 93%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: #1a1a1a;
+    padding-bottom: 60px; /* space for navbar */
+}
+
+h1 {
+	text-align: center;
+	font-family: "Serif, sans-serif";
+	color: #d4af37;
+}
+
+h2 {
+	
+	text-align: center;
+	font-family: "Serif, sans-serif";
+	Color: hsl(0,0%,50%);
+}
+
+p {
+	font-size: 22px;
+	text-align: center;
+	font-family: "Serif, sans-serif";
+	Color: #e6d3a3;
+}
+
+a {
+	Color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* NavBar */
+
+nav {
+        background-color: hsl(0,0%,25%); 
+        position: fixed; 
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex; 
+    }
+
+    nav ul li {
+        flex: 1; 
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+        background-color: #36648B;
+    }
+
+/* Grid */
+
+.project_grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(100px, 1fr));
+  gap: 40px;
+  position: absolute;
+  left: 395px;
+  top: center;
+  max-width: 400px;
+}
+ 
+/* Erstellt karten mit bild die sich dem grid anpassen */
+ 
+.project_card {
+/* abstände und farbeinstellungen */ 
+  background: hsl(0, 0%, 25%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 8px 16px hsl(0, 0%, 0%);
+  color: white;
+/* Maximale höhe der karten einstellen */ 
+  height: 168px; 
+  width: 89px;
+/* text umbruch */
+  overflow: auto;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  display: flex;
+  flex-direction: column;
+/* Horizontales Zentrieren aller inhalte der karte */
+  align-items: center;
+  text-align: center;
+}
+
+.project_card_I {
+/* abstände und farbeinstellungen */ 
+  background: hsl(0, 0%, 25%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 8px 16px hsl(0, 0%, 0%);
+  color: white;
+/* Maximale höhe der karten einstellen */ 
+  height: 168px; 
+  width: 140px;
+/* text umbruch */
+  overflow: auto;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  display: flex;
+  flex-direction: column;
+/* Horizontales Zentrieren aller inhalte der karte */
+  align-items: center;
+  text-align: center;
+}
+
+.project_card_i {
+/* abstände und farbeinstellungen */ 
+  background: hsl(0, 0%, 25%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 8px 16px hsl(0, 0%, 0%);
+  color: gold;
+/* Maximale höhe der karten einstellen */ 
+  height: 450px; 
+  width: 150px;
+/* text umbruch */
+  overflow: auto;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  display: flex;
+  flex-direction: column;
+/* Horizontales Zentrieren aller inhalte der karte */
+  align-items: center;
+  text-align: center;
+}
+
+
+.project_card_p {
+  margin-left: 80px;
+/* abstände und farbeinstellungen */ 
+  background: hsl(0, 0%, 25%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 8px 16px hsl(0, 0%, 0%);
+  color: white;
+/* Maximale höhe der karten einstellen */ 
+  height: 450px; 
+  width: 170px;
+/* text umbruch */
+  overflow: auto;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  display: flex;
+  flex-direction: column;
+/* Horizontales Zentrieren aller inhalte der karte */
+  align-items: center;
+  text-align: center;
+}
+
+.project_grid_c {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(100px, 1fr));
+  gap: 40px;
+  position: absolute;
+  left: 80px;
+  top: center;
+  max-width: 400px;
+}
+
+.project_card_c {
+/* abstände und farbeinstellungen */ 
+  background: hsl(0, 0%, 25%);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 8px 16px hsl(0, 0%, 0%);
+  color: white;
+/* Maximale höhe der karten einstellen */ 
+  height: 250px; 
+  width: 200px;
+/* text umbruch */
+  overflow: auto;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  display: flex;
+  flex-direction: column;
+/* Horizontales Zentrieren aller inhalte der karte */
+  align-items: center;
+  text-align: center;
+}
+
+.project_grid a {
+text-decoration: none;
+}
+
+.project_grid h1 {
+font-size: 28px; 
+}
+
+.project_grid p {
+font-size: 24px;
+}
+
+ol {
+font-size: 20px;
+font-family: "Serif, sans-serif";
+}
 
