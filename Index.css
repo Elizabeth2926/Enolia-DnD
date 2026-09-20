@@ -134,7 +134,7 @@ nav {
     }
 
     nav ul li a:hover {
-	height: auto;
+	padding: 15px 20px;
 	text-decoration: underline;
     background-color: #36648B; 
     }
