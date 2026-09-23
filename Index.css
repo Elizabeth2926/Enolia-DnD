@@ -34,7 +34,7 @@
 /* Schwerter*/
 
 .swords1 {
-  position: absolute;
+  position: relative;
   width: 30%;
   height: auto;
   top: 28%;
@@ -42,7 +42,7 @@
 }
 
 .swords2 {
-  position: absolute;
+  position: relative;
   width: 30%;
   height: auto;
   top: 28%;
