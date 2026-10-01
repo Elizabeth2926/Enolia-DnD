@@ -108,8 +108,8 @@ nav {
 
 .project_grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(280px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(5, minmax(280vh, 1fr));
+  gap: 40vh;
   max-width: 2400px;
   margin-left: 5vh;
   margin-right: auto;
