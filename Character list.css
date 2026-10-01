@@ -104,7 +104,7 @@ nav {
   grid-template-columns: repeat(5, minmax(280vh, 1fr));
   gap: 40vh;
   max-width: 2400px;
-  margin-left: 5vh;
+  margin-left: 3vh;
   margin-right: auto;
 }
  
