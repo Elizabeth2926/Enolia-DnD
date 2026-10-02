@@ -32,21 +32,20 @@
 }
 
 /* Schwerter*/
+.swords1, .swords2 {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 1; /* Maintains square proportions */
+  object-fit: contain;
+  top: 28%;
+}
 
 .swords1 {
-  position: absolute;
-  width: 25%;
-  height: auto;
-  top: 28%;
-  left: 3%;
+  left: 2%;
 }
 
 .swords2 {
-  position: absolute;
-  width: 25%;
-  height: auto;
-  top: 28%;
-  right: 3%;
+  right: 2%;
 }
 
 /* Gestaltung */
