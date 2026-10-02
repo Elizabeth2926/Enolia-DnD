@@ -28,25 +28,24 @@
   	margin: 0;
 	font-size: 22px;
 	font-family: "Bodoni MT";
-	Color: #e6d3a3;
+	color: #e6d3a3;
 }
 
 /* Schwerter*/
+.swords1, .swords2 {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 1; /* Maintains square proportions */
+  object-fit: contain;
+  top: 28%;
+}
 
 .swords1 {
-  position: absolute;
-  width: 25%;
-  height: auto;
-  top: 28%;
-  left: 3%;
+  left: 2%;
 }
 
 .swords2 {
-  position: absolute;
-  width: 25%;
-  height: auto;
-  top: 28%;
-  right: 3%;
+  right: 2%;
 }
 
 /* Gestaltung */
@@ -78,7 +77,7 @@ h2 {
 	
 	text-align: center;
 	font-family: "Comic Sans MS";
-	Color: hsl(0,0%,50%);
+	color: hsl(0,0%,50%);
 }
 
 u {
@@ -90,11 +89,11 @@ p {
 	font-size: 21px;
 	text-align: center;
 	font-family: "Bodoni MT";
-	Color: #e6d3a3;
+	color: #e6d3a3;
 }
 
 a {
-	Color: gray;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -115,8 +114,7 @@ nav {
     }
 
     nav ul {
-        list-style-type: none; /
-        margin: 0;
+        list-style-type: none;
         padding: 0;
         display: flex; 
     }
